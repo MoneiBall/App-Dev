@@ -1,0 +1,61 @@
+{
+  "name": "doc-house",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@stripe/stripe-js": "^1.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "classnames": "^2.2.6",
+    "mdbreact": "^4.27.0",
+    "pusher-js": "^7.0.1",
+    "react": "^16.13.1",
+    "react-credit-cards": "^0.8.3",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^6.9.2",
+    "react-mdl": "^2.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-stripe-checkout": "^2.6.3",
+    "react-swipeable-views": "^0.13.9",
+    "react-toastify": "^6.1.0",
+    "react-user-profile": "^1.0.3",
+    "react-with-styles": "^4.1.0",
+    "styled-components": "^5.2.0",
+    "validator": "^13.1.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.19.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
+    "react-test-renderer": "^17.0.1"
+  }
+}
